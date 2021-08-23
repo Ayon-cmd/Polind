@@ -1,0 +1,887 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+}
+header {
+    height: 1204px;
+    background-image: url('img/banner.PNG');
+    background-repeat: no-repeat;
+    background-size: cover;  
+    position: relative;
+}
+nav {
+	display: flex;
+	justify-content: space-between;
+	padding: 20px 15px;
+}
+.logo{
+    height: 2.37rem;
+    width: 1.56rem;
+}
+nav a {
+    text-decoration: none;
+    list-style: none;  
+}
+.logoname {
+    font-size: 1.8rem;
+    color: #fff;
+}
+ul {
+	display: flex;
+}
+ul li {	
+	padding-top: 23px;
+    list-style: none;
+}
+ul li a {
+	text-decoration: none;;
+	padding: 26px;
+	color: #fff;
+}
+.top-bar {
+	
+	
+	padding-top: 10%;
+	margin: auto;
+    text-align: center;
+}
+.top-paragraph {
+	
+	font-size: 6.25rem;
+	font-family: montsarrt bold;
+	color: #fff;
+}
+.poland {
+	color: #ed6950;
+	font-size: 5.31rem;
+}
+.mdl_paragraph {
+    color: #606364;
+    padding-top: 15px;
+    
+}
+.top_btn {
+	margin-top: 12%;
+	height: 54px;
+	width: 206px;
+	border-radius: 25px;
+	border: none;
+	background: #ffc74a;
+	color: #b98000;
+    font-family: montserrat bold;
+}
+.dln-paragraph {
+	padding-top: 5%;
+	color: #fff;
+    font-family: montserrat regular;
+}
+/* main_check-offer  */
+.check_offer {
+    display: flex;
+    width: 100%;
+}
+
+.item-row {
+    padding: 1%;
+    width: 20%;
+    height: auto;
+   
+}
+.item-row1 {
+    padding: 1%;
+    text-align: center;
+    position: relative;
+    width: 20%;
+    height: auto;
+   
+}
+.check_img {
+    width: 93%;
+    height: auto;
+}
+.check_img1 {
+    width: 100%;
+    height: auto;
+}
+.check_img2 {
+    width: 100%;
+    height: auto;
+}
+.check_img3 {
+    width: 100%;
+    height: auto;
+}
+.check_img4 {
+    width: 100%;
+    height: auto;
+}
+.check_img5 {
+    width: 93%;
+    height: auto;
+}
+
+.para {
+    left: 40%;
+    right: 50%;
+    top: 80%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+}
+.zakopane {
+    font-size: 32px;
+    color: #fff;
+    font-family: montserrat bold;
+}
+.malo {
+    color: #b98000;
+    font-family: montserrat Regular;
+    padding-left: 20px;
+    padding-top: 8px;
+}
+.item-row2 {
+    padding: 1%;
+    position: relative;
+    width: 20%;
+    height: auto;
+    text-align: center;
+}
+.para2 {
+    width: 17rem;
+    left: 50%;
+    right: 50%;
+    top: 65%;
+    transform: translate(-50%, -40%);
+    position: absolute;
+    color: #fff;
+    text-align: center;
+}
+.sando {
+    font-size: 45px;
+    width: auto;
+    padding-top: 10%;
+}
+.swiet {
+    padding-top: 5%;
+}
+.view-more {
+    margin-top: 9%;
+    height: 42px;
+    width: 70%;
+    border: none;
+    border-radius: 25px;
+    background: #ffc74a;
+}
+
+.item-row3 {
+    padding: 1%;
+    position: relative;
+    width: 20%;
+   
+}
+
+.para4 {    
+    width: 17rem;
+    left: 50%;
+    right: 50%;
+    top: 75%;
+    transform: translate(-50%, -50%);
+    position: absolute;
+    text-align: center;
+    color: #fff;
+}
+
+.sopot {
+    font-size: 35px;
+}
+.pomo {
+    font-size: 10px;
+}
+.item-row4 {
+    padding: 1%;
+    width: 20%;
+    height: auto;
+}
+/* category section  */
+.category_section {
+    height: 1263px;
+    /* background-color: red; */
+
+}
+.container {
+    max-width: 1178px;
+    /* background-color: aquamarine; */
+    margin: auto;
+}
+h1 {
+    padding-top: 20%;
+    text-align: center;
+}
+.search_box {
+	
+	margin-top: 5%;
+	/* box-shadow: 1px 0px 4px -1px; */
+	width: 63%;
+	margin: auto;
+	/* border-radius: 25px; */
+	margin-top: 60px;
+	height: 65px;
+    text-align: center;
+}
+[type="text"] {
+    border-radius: 25px;
+    border: none;
+    /* width: 100%; */
+    height: 97%;
+    font-size: 25px;
+    border: none;
+    width: 91%;
+}
+.search-item {
+	background-color: #fff;
+	width: 100%;
+	height: 60px;
+	margin: auto;
+	border-radius: 25px;
+    box-shadow: 5px 0px 0px 1px  #fff;
+    box-shadow: 1px 0px 4px -1px;
+   
+}
+.list-item {
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 25px;
+    
+}
+.list-item .sub-list {
+    display: flex;
+    justify-content: center;
+    
+}
+.list-item .sub-list2 {
+    display: flex;
+    justify-content: center;
+}
+.sub-list {
+    
+}
+.sub-list p {
+    margin: 0px 5px;
+}
+.sub-list2 p {
+    margin: 0px 5px;
+    background-color: #fff;
+	text-align: center;
+	height: 30px;
+	border-radius: 25px;
+	border: none;
+    padding: 5px 10px;
+    border: 1px solid gray;
+    cursor: pointer;
+    cursor: pointer;
+}
+.blue-btn {
+	background: #ffc74a;
+	width: 100px;
+	text-align: center;
+	height: 30px;
+	border-radius: 25px;
+	border: none;
+	padding-top: 5px;
+    cursor: pointer;
+}
+.gray-btn {
+    background-color: #bdc8d9;
+	width: 100px;
+	text-align: center;
+	height: 30px;
+	border-radius: 25px;
+	border: none;
+	padding-top: 5px;
+    cursor: pointer;
+}
+.gray-btn2 {
+    background-color: #bdc8d9;
+	width: 90px;
+	text-align: center;
+	height: 30px;
+	border-radius: 25px;
+	border: none;
+	padding-top: 5px;
+    cursor: pointer;
+}
+/* country_name  */
+.country_name {
+	padding-top: 30px;
+    display: flex;
+}
+.offer_view {
+	height: 350px;
+	background-color: #fff;
+	text-align: center;
+	margin: 0px 15px;
+	box-shadow: 0px 0px 3px -3px;
+    border: none;
+}
+.country-img {
+    height: auto;
+    width: 100%;
+}
+h3 {
+	padding-top: 3%;
+	font-size: 35px;
+	color: #606f81;
+}
+.wielko {
+	color: #c3c8ce;
+	padding-top: 1%;
+}
+.offers_btn {
+	width: 50%;
+	background: #fff;
+	margin: auto;
+	height: 40px;
+	padding-top: 11px;
+	border-radius: 25px;
+	box-shadow: 0px 0px 10px 0px #aca9a9;
+	border: none;
+	margin-top: 30px;
+	font-size: 100%;
+}
+.offers_btnm {
+    width: 50%;
+	background-color: #ffc74a;
+	margin: auto;
+	height: 40px;
+	padding-top: 11px;
+	border-radius: 25px;
+	box-shadow: 5px 0px 10px 0px  #fff;
+    border: none;
+	margin-top: 30px;
+	font-size: 100%;
+}
+ /* explore city section  */
+ .explore-city {
+    background-color: #f8f9fb;
+    height: 896px;
+ }
+ h2 {
+     text-align: center;
+
+ }
+ .city-view {
+    display: flex;
+ }
+ .paragraph-view {
+	width: 50%;
+}
+
+.sando_paragraph {
+	padding-top: 5%;
+	line-height: 29px;
+	word-spacing: -2px;
+}
+ .sando_paragraph2 {
+    padding-top: 2%;
+	line-height: 29px;
+	word-spacing: -2px;
+ }
+ .img-view {
+	padding-top: 9%;
+    position: relative;
+    z-index: 999;
+    
+   
+    
+}
+.white_house {
+	width: 100%;
+	height: auto;
+}
+ .btn2 {
+	margin-top: 15%;
+	width: 31%;
+	height: 50px;
+	border-radius: 25px;
+	border: none;
+	background-color: #ffc74a;
+	color: #b98000;
+}
+/* .img-back {
+	height: 34rem;
+	width: 100%;
+	border: 15px solid #ffc74a;
+	left: 56%;
+	right: 50%;
+	top: 60%;
+	transform: translate(-50%, -50%);
+	position: absolute;
+    z-index: 1; 
+} */
+/* Journey section  */
+.journey-section {
+    height: 645px;
+    text-align: center;
+     background-image: url('img/sign.png');
+     background-size: cover;
+     background-repeat: no-repeat;
+     color: #fff;
+    
+}
+.journey-time {
+    padding-top: 225px;
+    font-size: 70px;
+
+}
+.btn3 {
+	background-color: #ffc74a;
+	border: none;
+	width: 10%;
+	height: 46px;
+	border-radius: 25px;
+	margin-top: 3%;
+}
+.sign-paragraph {
+	padding-top: 2%;
+}
+.sign-paragraph a {
+    color: #ffc74a ;
+}
+/* footer section  */
+.footer-section {
+    height: 500px;
+    text-align: center;
+    background-image: url('img/drop.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+  
+}
+.footer-logo {
+	padding-top: 20%;
+}
+.right {
+    padding-top: 1%;
+}
+
+/* media start  */
+
+
+/* @media(min-width: 360px) {
+    html {
+        font-size: 45%;
+    }
+} */
+
+/* @media(min-width: 360px) {
+    header {
+        height: 174.5rem;
+    }
+    nav {
+        display: grid;
+        padding-left: 33%;
+    }
+    ul {
+        display: grid;
+    }
+    .top-paragraph {
+        font-size: 35px;
+    }
+    .poland {
+        font-size: 35px;
+    }
+   
+    .list-item {
+       display: grid;
+       
+    }
+    .country_name {
+       display: grid;
+    }
+    .category_section {
+        height: 2476px;
+    }
+    h2 {
+        padding-top: 12%;
+    }.check_offer {
+        display: grid;
+    }
+    .city-view {
+        display: grid;
+    }
+    .paragraph-view {
+        width: 88%;
+        padding-left: 3%;
+    }
+    .explore-city {
+        height: 100rem;
+    }
+    .img-back {
+        height: 19rem;
+        transform: translate(-50%, -37%);
+    }
+    .btn2 {
+        width: 45%; 
+    }
+    .journey-time {
+        padding-top: 120px;
+        font-size: 35px;
+    }
+    .journey-section {
+        height: 410px;
+    }
+    .btn3 {
+        width: 38%; 
+    }
+    .sign-paragraph {
+        padding-top: 7%;
+    }
+    .footer-section {
+        height: 243px;
+    }
+    [type="text"] {
+        font-size: 17px;
+        width: 64%;
+    }
+    .search-item {
+        height: 49px;
+    }
+    .list-item .sub-list2 {
+        margin-top: 8%;
+    }
+    .para2 {
+        left: 65%;
+        top: 65%;
+        transform: translate(-7%, -57%);
+    }
+    .sando {
+       padding-left: 2px;
+    }
+    .para4 {
+        left: 70%;
+        transform: translate(-3%, -50%);
+    }
+    .check_offer {
+     
+        padding-left: 4%;
+    }
+  
+
+} 
+@media(min-width: 412px) {
+    .top-paragraph {
+        font-size: 41px;
+    }
+    .item-row {
+       
+        margin-top: 8%;
+    }
+    header {
+        height: 178rem;
+    }
+    .offer_view {
+        
+        margin: 25px 15px;
+        
+    }
+    .category_section {
+        height: 2783px;
+    }
+
+}
+@media(min-width: 480px) {
+    header {
+        height: 180rem;
+    }
+    .offer_view {
+       
+        
+    }
+    .para {
+        left: 34%;
+        
+    }
+    h2 {
+        padding-top: 14%;
+    }
+    .explore-city {
+        height: 111rem;
+    }
+    .category_section {
+        height: 3267px;
+    }
+    .explore-city {
+        height: 99rem;
+    }
+    .offer_view {
+        margin: 53px 15px;
+    }
+    .img-back {
+        
+        top: 74%;
+       
+    }
+    
+}
+@media(min-width: 576px) {
+    .check_offer {
+        padding-left: 27%;
+    }
+    header {
+        height: 186rem;
+    }
+    .white_house {
+        width: 58%;
+        
+    }
+    .img-back {
+        width: 59%;
+        left: 35%;
+        
+    }
+}
+@media(min-width: 786px) {
+    nav {
+        display: flex;
+        padding-left:1%;
+    }
+    ul {
+       display: flex;
+    }
+    .top-paragraph {
+        font-size: 70px;
+    }
+    .poland {
+        font-size: 70px;
+    }
+    .check_offer {
+        padding-left:0%;
+        display: flex;
+    }
+} *
+
+
+
+
+
+
+
+
+
+2nd number
+
+
+
+
+
+/* @media(min-width: 360px) {
+    header {
+        height: 174rem;
+    }
+    nav {
+        display: grid;
+        padding-left: 33%;
+    }
+    ul {
+        display: grid;
+    }
+    .top-paragraph {
+        font-size: 35px;
+    }
+    .poland {
+        font-size: 35px;
+    }
+   
+    .list-item {
+       display: grid;
+       
+    }
+    .check_img {
+        width: auto;
+        height: auto;
+    }
+    .check_img1 {
+        width: auto;
+        height: auto;
+    }
+    .check_img2 {
+        width: auto;
+        height: auto;
+    }
+    .check_img3 {
+        width: auto;
+        height: auto;
+    }
+    .check_img4 {
+        width: auto;
+        height: auto;
+    }
+    .check_img5 {
+        width: auto;
+        height: auto;
+    }
+   
+    .country_name {
+        display: grid;
+     }
+     .category_section {
+         height: 2476px;
+     }
+     h2 {
+         padding-top: 12%;
+     }.check_offer {
+         display: grid;
+         padding-left: 0%;
+     }
+     .city-view {
+         display: grid;
+     }
+     .paragraph-view {
+         width: 88%;
+         padding-left: 5%;
+     }
+     .explore-city {
+         height: 100rem;
+     }
+     .img-back {
+         height: 19rem;
+         transform: translate(-50%, -37%);
+     }
+     .btn2 {
+         width: 45%; 
+     }
+     .journey-time {
+         padding-top: 120px;
+         font-size: 35px;
+     }
+     .journey-section {
+         height: 410px;
+     }
+     .btn3 {
+         width: 38%; 
+     }
+     .sign-paragraph {
+         padding-top: 7%;
+     }
+     .footer-section {
+         height: 243px;
+     }
+     [type="text"] {
+         font-size: 17px;
+         width: 64%;
+     }
+     .search-item {
+         height: 49px;
+     }
+     .list-item .sub-list2 {
+         margin-top: 8%;
+     }
+     .para2 {
+         left: 65%;
+         top: 65%;
+         transform: translate(-7%, -57%);
+     }
+     .sandomi {
+        padding-left: 2px;
+
+        padding-top: 16%;
+     }
+     .para4 {
+         left: 70%;
+         transform: translate(-3%, -50%);
+     }
+     .para {
+        left: 123%;
+       
+     }
+     .category_section {
+        height: 2748px;
+    }
+}
+@media(min-width: 412px) {
+    .offer_view {
+        
+        margin: 22px 15px;
+       
+    }
+    .img-back {
+       
+        transform: translate(-50%, -21%);
+    }
+    .check_offer {
+     
+        padding-left: 17%;
+    }
+    header {
+        height: 178rem;
+    }
+}
+
+
+
+@media(min-width: 576px) {
+    header {
+        height: 184rem;
+    }
+    .country-img {
+       
+        width: 45%;
+    }
+    .offers_btn {
+        width: 26%;
+        
+    }
+    .offers_btnm {
+        width: 26%;
+       
+    }
+    .category_section {
+        height: 2660px;
+    }
+    .white_house {
+        width: 56%;
+       
+    }
+    .img-back {
+        width: 50%;
+        left: 36%;
+        height: 23rem; 
+    }
+    .explore-city {
+        height: 84rem;
+    }
+    .check_offer {
+  
+        padding-left: 27%;
+        padding-top: 2%;
+    }
+    .btn2 {
+        width: 26%;
+    }
+}
+
+@media(min-width: 786px) {
+    nav {
+        display: flex;
+        padding-left: 1%;
+    }
+    ul {
+        display: flex;
+    }
+    .top-paragraph {
+        font-size: 70px;
+    }
+    .poland {
+        font-size: 70px;
+    }
+   
+}
+@media(min-width: 992px) {
+    .check_offer {
+        padding-left: 0%;
+        padding-top: 2%;
+        display: flex;
+    }
+}
+ */
+

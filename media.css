@@ -1,0 +1,210 @@
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 682px) {
+
+    nav {
+       flex-direction: column;
+       align-items: center;
+    }
+    ul {
+       flex-direction: column;
+    }
+    .top-paragraph {
+        font-size: 3rem;
+     
+    }
+    .poland {
+      
+        font-size: 3rem;
+    }
+    header {
+        height: auto;
+    }
+    .check_offer {
+       flex-direction: column;
+       align-items: center;
+    }
+    .item-row {
+       width: 100%;
+    }
+    .item-row1 {
+        width: 100%; 
+    }
+    .item-row2 {
+        width: 100%; 
+    }
+    .item-row3 {
+        width: 100%; 
+    }
+    .item-row4 {
+        width: 100%; 
+    }
+    .search-item {
+        
+        height: auto;
+        width: 100%;
+
+    }
+    [type="text"] {
+       
+        font-size: 15px;
+        
+    }
+    .list-item {
+        
+        flex-direction:column ;
+    }
+    .sub-list2 p {
+        margin: 17px 5px;
+        
+    }
+    h3 {
+       
+        font-size: 25px;
+        
+    }
+    .country_name {
+       
+        flex-direction: column;
+    }
+    .category_section {
+       height: auto;
+    }
+    .city-view {
+      
+        flex-direction: column;
+    }
+    .paragraph-view {
+        width: 100%;
+    }
+    .paragraph-view p {
+        text-align: center;
+        padding-top: 1rem;
+    }
+    .img-back {
+        height: auto;
+        width: 100%;
+        
+    }
+    .journey-section {
+       /* height: auto; */
+    }
+    .journey-time {
+        
+        font-size: 40px;
+        padding-top: 2rem;
+    }
+    .journey-time {
+       
+        padding-top: 23rem;
+    }
+    .btn3 {
+      height: 2rem;
+      width: 30%;
+    }
+
+    .footer-section {
+       height: auto;
+    }
+    .right {
+        padding: 15%;
+    }
+    .offer_view {
+        height: auto;
+    }
+    .offers_btn {
+       
+        margin-bottom: 2rem;
+    }
+    .offers_btnm {
+        margin-bottom: 2rem;
+    }
+    [type="text"] {
+        padding: .5rem 0.5rem;
+    }
+
+
+
+
+
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 682px) {
+    header {
+        height: auto;
+    }
+    .sando {
+        font-size: 15px;
+       
+    }
+    .swiet {
+        
+        font-size: 11px;
+    }
+    .para {
+      
+    }
+    .zakopane {
+        font-size: 23px;
+        
+    }
+    .para {
+        width: 100%;
+    }
+    .malo {
+        
+        padding-left: 4px;
+       
+    }
+    .view-more {
+        margin-top: 4%;
+        height: 29px;
+        width: 44%;
+       
+      
+    }
+    .btn2 {
+       
+        width: 50%;
+        font-size: .5rem;
+    }
+    
+    .para2 {
+       
+        top: 49%;
+        
+    }
+    .offers_btn {
+        width: 73%;
+    }
+    .offers_btnm {
+        width: 93%;
+        font-size: 100%;
+    }
+    .explore-city {
+        height: auto;
+    }
+    .city-view {
+       
+        margin: 0rem 2rem;
+    }
+}
+
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    .para2 {
+        top: 62%;
+    }
+    h1 {
+        padding-top: 5%;
+       
+    }
+    .offers_btn {
+        width: 50%;
+    }
+    .offers_btnm {
+        width: 50%;
+       
+    }
+}
